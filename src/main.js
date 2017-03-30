@@ -10,7 +10,7 @@ import VueRx from 'vue-rx'
 import './assets/css/font.css'
 import './assets/css/icon.css'
 import 'muse-ui/dist/muse-ui.css'
-import 'muse-ui/dist/theme-carbon.css' // 使用 carbon 主题
+import 'muse-ui/dist/theme-teal.css' // 使用 teal 主题
 
 Vue.use(MuseUI)
 // tada!
