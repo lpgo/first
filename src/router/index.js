@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from '@/components/Login'
 import Test from '@/components/Test'
 import Home from '@/components/Home'
+import Purchase from '@/components/Purchase'
 
 Vue.use(Router)
 
@@ -20,6 +21,7 @@ export default new Router({
       component: Home,
       children: [
       	{ path: '/test', component: Test, name: '测试' },
+        { path: '/purchase', component: Purchase, name: '过磅单' },
       ]
     }
   ]

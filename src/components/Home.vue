@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background:#fafafa">
     <mu-appbar title="茂奂建材有限公司">
       <mu-icon value="exit_to_app" :size="36" slot="right"/>
     </mu-appbar>
@@ -66,7 +66,6 @@
 }
 .content {
   flex: 1 1 auto;
-  padding: 50px;
 }
 .menuType {
   background: #efebe9;
